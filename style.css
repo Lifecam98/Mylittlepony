@@ -1,3 +1,90 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #111;
+  --cta-bg-color: #00a0f9;
+  --cta-text-color: #fff;
+  --btn-bg-color: #222;
+  --btn-text-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  
+  :root:not([theme="light"])  {
+    --bg-color: #111;
+    --text-color: #fff;
+    --btn-bg-color: #fff;
+    --btn-text-color: #222;
+  }
+}
+
+/* :root[theme="dark"] {
+  --bg-color: #111;
+  --text-color: #fff;
+  --btn-bg-color: #fff;
+  --btn-text-color: #222;
+} */
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 25px;
+/*   background: #fff;
+  color: #111; */
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.theme-toggle-btn {
+  background: var(--btn-bg-color);
+  color: var(--btn-text-color);
+}
+/*
+:root[data-theme="light"] {
+  --text: #040316;
+  --background: #fbfbfe;
+  --primary: #2f27ce;
+  --secondary: #dddbff;
+  --accent: #443dff;
+}
+
+:root[data-theme="dark"] {
+  --text: #eae9fc;
+  --background: #016161c;
+  --primary: #3a31d8;
+  --secondary: #020024;
+  --accent: #0600c2;
+}
+
+ @media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #16161c;
+    --text-color: #eae9fc;
+  }
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+/*
 label {
   width: 125px;
   height: 50px;
@@ -70,3 +157,4 @@ input:checked + label svg.sun {
 input:checked + label svg.moon {
   fill: #fff;
 }
+/*
