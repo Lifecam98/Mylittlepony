@@ -1,7 +1,7 @@
 :root {
   --bg-color: #fff;
   --text-color: #111;
-  --cta-bg-color: #00f929;
+  --cta-bg-color: #00f932;
   --cta-text-color: #fff;
   --btn-bg-color: #222;
   --btn-text-color: #fff;
@@ -9,13 +9,13 @@
 
 @media (prefers-color-scheme: dark) {
   
-  :root:not([theme="light"])  {
-    --bg-color: #111;
+  :root:not([theme="dark"])  {
+    --bg-color: #222222;
     --text-color: #fff;
     --cta-bg-color: #00a0f9;
     --cta-text-color: #fff;
-    --btn-bg-color: #fff;
-    --btn-text-color: #222;
+    --btn-bg-color: #565656;
+    --btn-text-color: #ffffff;
   }
 }
 
