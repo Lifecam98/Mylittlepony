@@ -1,8 +1,10 @@
 body {
   --bg-color: #fff;
   --text-color: #111;
-  --cta-bg-color: #00f932;
+  --cta-bg-color: #f94f00;
   --cta-text-color: #000000;
+  --home-bg-color: #f9cb00;
+  --home-text-color: #000000;
 }
 
 [theme="dark"] body {
@@ -10,6 +12,8 @@ body {
   --text-color: #fff;
   --cta-bg-color: #00a0f9;
   --cta-text-color: #fff;
+  --home-bg-color: #01a11c;
+  --home-text-color: #fff;
 }
 
 body {
@@ -44,6 +48,17 @@ button {
 .cta-btn {
   background: var(--cta-bg-color);
   color: var(--cta-text-color);
+width: 225px;
+height: 40px;
+margin-bottom: 5px;
+}
+
+.home-btn {
+  background: var(--home-bg-color);
+  color: var(--home-text-color);
+width: 225px;
+height: 40px;
+margin-bottom: 5px;
 }
 
 .darkmodeswitch {
