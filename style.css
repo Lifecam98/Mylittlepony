@@ -1,4 +1,4 @@
-:root {
+:root:not([theme="light"]) {
   --bg-color: #fff;
   --text-color: #111;
   --cta-bg-color: #00f932;
@@ -19,21 +19,12 @@
   }
 }
 
-/* :root[theme="dark"] {
-  --bg-color: #111;
-  --text-color: #fff;
-  --btn-bg-color: #fff;
-  --btn-text-color: #222;
-} */
-
 body {
   width: 100%;
   height: 100%;
   margin: 0;
   font-family: sans-serif;
   padding: 25px;
-/*   background: #fff;
-  color: #111; */
   background: var(--bg-color);
   color: var(--text-color);
   transition: all 0,3s linear;
