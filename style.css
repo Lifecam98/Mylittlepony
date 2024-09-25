@@ -3,18 +3,13 @@ body {
   --text-color: #111;
   --cta-bg-color: #00f932;
   --cta-text-color: #000000;
-  --btn-bg-color: #222;
-  --btn-text-color: #fff;
 }
 
-/* Dark mode */
 [theme="dark"] body {
   --bg-color: #222222;
   --text-color: #fff;
   --cta-bg-color: #00a0f9;
   --cta-text-color: #fff;
-  --btn-bg-color: #565656;
-  --btn-text-color: #ffffff;
 }
 
 body {
@@ -46,14 +41,7 @@ button {
   cursor: pointer;
 }
 
-.theme-toggle-btn {
-  background: var(--btn-bg-color);
-  color: var(--btn-text-color);
-}
-
 .cta-btn {
-  /*   background: #00a0f9;
-  color: #fff; */
   background: var(--cta-bg-color);
   color: var(--cta-text-color);
 }
@@ -62,23 +50,19 @@ button {
   display: block;
   --width-of-switch: 3.5em;
   --height-of-switch: 2em;
-  /* size of sliding icon -- sun and moon */
   --size-of-icon: 1.4em;
-  /* it is like a inline-padding of switch */
   --slider-offset: 0.3em;
   position: relative;
   width: var(--width-of-switch);
   height: var(--height-of-switch);
 }
 
-/* Hide default HTML checkbox */
 .darkmodeswitch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -112,6 +96,5 @@ input:checked + .slider {
 input:checked + .slider:before {
   left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
   background: #303136;
-  /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
   box-shadow: inset -3px -2px 5px -2px #4943b7, inset -10px -4px 0 0 #f8f8f8;
 }
