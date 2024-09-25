@@ -1,9 +1,9 @@
 body {
   --bg-color: #fff;
   --text-color: #111;
-  --cta-bg-color: #f94f00;
+  --cta-bg-color: #f9cb00;
   --cta-text-color: #000000;
-  --home-bg-color: #f9cb00;
+  --home-bg-color: #f94f00;
   --home-text-color: #000000;
   --link-color: #f94f00;
   --link-hover-color: #00a0f9;
@@ -59,7 +59,7 @@ margin-bottom: 5px;
 width: 250px;
 height: 50px;
 margin-bottom: 5px;
-margin-top: 50px;
+margin-top: 30px;
 }
 
 #horses {
