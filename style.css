@@ -5,6 +5,8 @@ body {
   --cta-text-color: #000000;
   --home-bg-color: #f9cb00;
   --home-text-color: #000000;
+  --link-color: #f94f00;
+  --link-hover-color: #00a0f9;
 }
 
 [theme="dark"] body {
@@ -14,6 +16,8 @@ body {
   --cta-text-color: #fff;
   --home-bg-color: #01a11c;
   --home-text-color: #fff;
+  --link-color: #00a0f9;
+  --link-hover-color: #f94f00;
 }
 
 body {
@@ -30,10 +34,6 @@ body {
 *::after,
 *::before {
   box-sizing: border-box;
-}
-
-img {
-  width: 100%;
 }
 
 button {
@@ -56,9 +56,34 @@ margin-bottom: 5px;
 .home-btn {
   background: var(--home-bg-color);
   color: var(--home-text-color);
-width: 225px;
-height: 40px;
+width: 250px;
+height: 50px;
 margin-bottom: 5px;
+margin-top: 50px;
+}
+
+#horses {
+  width: 800px;
+  height: 450px;
+  border-radius: 50px;
+}
+
+a:link {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--link-color);
+}
+
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+
+a:active {
+  color: #0057f9;
 }
 
 .darkmodeswitch {
