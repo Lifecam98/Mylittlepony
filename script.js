@@ -14,13 +14,12 @@ themeToggleCheckbox.addEventListener("change", () => {
   toggleTheme(themeToggleCheckbox.checked);
 });
 
-// Sjekk brukerens foretrukne fargetema ved første lasting
 if (
   window.matchMedia &&
   window.matchMedia("(prefers-color-scheme: dark)").matches
 ) {
   themeToggleCheckbox.checked = true;
-  toggleTheme(true); // Sett mørkt tema hvis bruker foretrekker det
+  toggleTheme(true);
 } else {
   themeToggleCheckbox.checked = false;
   toggleTheme(false);
