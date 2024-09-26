@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="Assets/horselogo.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>More about horses</title>
   </head>
   <body>
@@ -28,12 +29,23 @@
         <button class="cta-btn">Horse reddit</button></a
       >
     </div>
-    <img
-      class="horses"
-      src="Assets/horses.jpg"
-      alt="A pnoramic picture of over 10 horses in the mountains"
-      style="width: 800px; height: 450px; border-radius: 50px"
-    />
+    <div class="imageslider-container">
+      <div class="imageslider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="Assets/horses.jpg"></div>
+              <div class="swiper-slide"><img src="Assets/horses2.jpg"></div>
+              <div class="swiper-slide"><img src="Assets/horses3.jpg"></div>
+              <div class="swiper-slide"><img src="Assets/horses4.jpg"></div>
+              <div class="swiper-slide"><img src="Assets/horses5.jpg"></div>
+              <div class="swiper-slide"><img src="Assets/horses6.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
     <h2>
       If you are not looking for specific information about horses, I have
       listed some initial facts in the segment below.
@@ -104,5 +116,7 @@
       here!
     </p>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
   </body>
 </html>
