@@ -29,6 +29,7 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   transition: all 0.2s linear;
+  text-align: center;
 }
 *,
 *::after,
@@ -43,6 +44,17 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 50px;
+}
+
+h1 span {
+  background-color: var(--cta-bg-color);
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .cta-btn {
@@ -70,6 +82,7 @@ button {
 
 .lists {
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -101,11 +114,13 @@ a:active {
 
 .darkmodeswitch {
   display: block;
+  margin-top: -25px;
+  margin-right: -25px;
   --width-of-switch: 3.5em;
   --height-of-switch: 2em;
   --size-of-icon: 1.4em;
   --slider-offset: 0.3em;
-  position: relative;
+  position: absolute; top: 50px; right: 50px;
   width: var(--width-of-switch);
   height: var(--height-of-switch);
 }
