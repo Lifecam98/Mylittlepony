@@ -6,6 +6,7 @@
     <title>Tony the pony!</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="Assets/whitehorselogo.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body>
     <label class="darkmodeswitch">
@@ -25,12 +26,21 @@
       <button class="cta-btn">Tonys latest win</button></a
     >
     <h2>When i was a little kid, I had a pony that went by the name Tony.</h2>
-    <img
-      src="Assets/whitehorse.jpg"
-      alt="A recent image of Tony with earcuffs."
-      class="fancy"
-      style="width: 350px; height: 300px; border-radius: 50px"
-    />
+<div class="imageslider-container">
+<div class="imageslider">
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="Assets/tony2.jpg"></div>
+    <div class="swiper-slide"><img src="Assets/tony1.jpg"></div>
+    <div class="swiper-slide"><img src="Assets/tony3.jpg"></div>
+    <div class="swiper-slide"><img src="Assets/tony4.jpg"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+</div>
+</div>
     <p>
       I was only 6 years old when i <em>first</em> met Tony, I will never forget
       the first time i met him. He was standing there in the sunshine with his
@@ -51,5 +61,7 @@
       </a>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
   </body>
 </html>
