@@ -70,9 +70,14 @@ header {
 footer {
   background-color: var(--header-bg-color);
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
-  align-items: center;
   margin-top: 70px;
+}
+
+.footer-text {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .imageslider-container {
