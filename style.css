@@ -7,10 +7,11 @@ body {
   --home-text-color: #000000;
   --link-color: #f94f00;
   --link-hover-color: #00a0f9;
+  --header-bg-color: #333333;
 }
 
 [theme="dark"] body {
-  --bg-color: #222222;
+  --bg-color: #333333;
   --text-color: #fff;
   --cta-bg-color: #00a0f9;
   --cta-text-color: #fff;
@@ -18,6 +19,7 @@ body {
   --home-text-color: #fff;
   --link-color: #00a0f9;
   --link-hover-color: #f94f00;
+  --header-bg-color: #222222;
 }
 
 body {
@@ -25,7 +27,6 @@ body {
   height: 100%;
   margin: 0;
   font-family: sans-serif;
-  padding: 25px;
   background: var(--bg-color);
   color: var(--text-color);
   transition: all 0.2s linear;
@@ -48,7 +49,8 @@ button {
 
 h1 {
 text-align: center;
-margin-bottom: 100px;
+padding: 8px;
+font-size: 25px;
 }
 
 h1 span {
@@ -57,25 +59,48 @@ h1 span {
   padding: 15px;
 }
 
-.imageslider {
-  width: 75%;
-  height: 80vh;
+header {
+  background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+footer {
+  background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.imageslider-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  overflow: hidden;
+}
+
+.imageslider {
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .swiper {
-  width: 80%;
+  width: 90%;
   height: fit-content;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .swiper-slide img {
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   object-fit: cover;
   object-position: center;
@@ -102,7 +127,7 @@ h1 span {
   color: var(--home-text-color);
   width: 250px;
   height: 50px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   margin-top: 30px;
 }
 
@@ -140,8 +165,8 @@ a:active {
 
 .darkmodeswitch {
   display: block;
-  margin-top: -25px;
-  margin-right: -25px;
+  margin-top: -27px;
+  margin-right: -20px;
   --width-of-switch: 3.5em;
   --height-of-switch: 2em;
   --size-of-icon: 1.4em;
@@ -184,11 +209,11 @@ a:active {
 }
 
 input:checked + .slider {
-  background-color: #303136;
+  background-color: #333333;
 }
 
 input:checked + .slider:before {
   left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
-  background: #303136;
+  background: #333333;
   box-shadow: inset -3px -2px 5px -2px #4943b7, inset -10px -4px 0 0 #f8f8f8;
 }
