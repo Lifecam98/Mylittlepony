@@ -68,25 +68,25 @@ button {
   }
 }
 
-.content {
+.horsestitle {
   display: flex;
   position: relative;
   padding-bottom: 80px;
 }
 
-.content h1 {
+.horsestitle h1 {
   color: #fff;
   font-size: 60px;
   position: absolute;
   transform: translate(-50%, -50%);
 }
 
-.content h1:nth-child(1) {
+.horsestitle h1:nth-child(1) {
   color: transparent;
   -webkit-text-stroke: 2px var(--cta-bg-color);
 }
 
-.content h1:nth-child(2) {
+.horsestitle h1:nth-child(2) {
   color: var(--cta-bg-color);
   animation: animate 4s ease-in-out infinite;
 }
