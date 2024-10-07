@@ -1,0 +1,119 @@
+{
+	"files": [
+		{
+			"path": "style.css",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 0,
+					"label": "Themes"
+				},
+				{
+					"line": 50,
+					"column": 0,
+					"label": "Title Tony"
+				},
+				{
+					"line": 70,
+					"column": 0,
+					"label": "Horses Title"
+				},
+				{
+					"line": 124,
+					"column": 0,
+					"label": "Header"
+				},
+				{
+					"line": 133,
+					"column": 0,
+					"label": "Footer"
+				},
+				{
+					"line": 147,
+					"column": 0,
+					"label": "Image Slider"
+				},
+				{
+					"line": 187,
+					"column": 0,
+					"label": "Buttons"
+				},
+				{
+					"line": 204,
+					"column": 0,
+					"label": "Lists"
+				},
+				{
+					"line": 236,
+					"column": 0,
+					"label": "Darkmode Switch"
+				}
+			]
+		},
+		{
+			"path": "horses.html",
+			"bookmarks": [
+				{
+					"line": 12,
+					"column": 0,
+					"label": "Darkmode Switch"
+				},
+				{
+					"line": 16,
+					"column": 0,
+					"label": "Horse Title"
+				},
+				{
+					"line": 24,
+					"column": 0,
+					"label": "Navbar"
+				},
+				{
+					"line": 37,
+					"column": 0,
+					"label": "Image Slider"
+				},
+				{
+					"line": 58,
+					"column": 0,
+					"label": "Lists"
+				},
+				{
+					"line": 115,
+					"column": 0,
+					"label": "Home Button"
+				}
+			]
+		},
+		{
+			"path": "index.html",
+			"bookmarks": [
+				{
+					"line": 15,
+					"column": 0,
+					"label": "Darkmode Switch"
+				},
+				{
+					"line": 19,
+					"column": 0,
+					"label": "Tony Title"
+				},
+				{
+					"line": 28,
+					"column": 0,
+					"label": "Navbar"
+				},
+				{
+					"line": 40,
+					"column": 0,
+					"label": "Image Slider"
+				},
+				{
+					"line": 72,
+					"column": 0,
+					"label": "Home Button"
+				}
+			]
+		}
+	]
+}
